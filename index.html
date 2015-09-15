@@ -22,6 +22,7 @@
 				<li><a href="#" class="ui-btn-active ui-state-persist" data-icon="home">Home</a></li>
 				<li><a href="#pagetwo" data-icon="ui-btn ui-icon-info" data-transition="flip">Users</a></li>
 				<li><a href="#pagethree" data-icon="ui-btn ui-icon-info" data-transition="flip">Books</a></li>
+				<li><a href="#pagefour" data-icon="ui-btn ui-icon-info" data-transition="flip">Developers details</a></li>
 			  </ul>
 			</div>
 		  </div>
@@ -57,6 +58,7 @@
         <li><a href="#pageone" data-icon="home"  data-transition="flip">Home</a></li>
         <li><a href="#" data-icon="ui-btn ui-icon-info" class="ui-btn-active ui-state-persist">Users</a></li>
 		<li><a href="#pagethree" data-icon="ui-btn ui-icon-info" data-transition="flip">Books</a></li>
+		<li><a href="#pagefour" data-icon="ui-btn ui-icon-info" data-transition="flip">Developers details</a></li>
       </ul>
     </div>
   </div>
@@ -96,6 +98,7 @@
         <li><a href="#pageone" data-icon="home"  data-transition="flip">Home</a></li>
         <li><a href="#pagetwo" data-icon="ui-btn ui-icon-info" data-transition="flip" >Users</a></li>
 		<li><a href="#" data-icon="ui-btn ui-icon-info" class="ui-btn-active ui-state-persist">Books</a></li>
+		<li><a href="#pagefour" data-icon="ui-btn ui-icon-info" data-transition="flip">Developers details</a></li>
       </ul>
     </div>
   </div>
@@ -122,6 +125,34 @@
       <li><a href="#">Glen</a></li>
       <li><a href="#">Ralph</a></li>
       <li><a href="#">Valarie</a></li>
+    </ul>
+  </div>
+
+</div>
+
+<div data-role="page" id="pagefour">
+  <div data-role="header" data-position="fixed">
+    <h1>Library Management System</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#pageone" data-icon="home"  data-transition="flip">Home</a></li>
+        <li><a href="#pagetwo" data-icon="ui-btn ui-icon-info" data-transition="flip" >Users</a></li>
+		<li><a href="#pagethree" data-icon="ui-btn ui-icon-info" data-transition="flip">Books</a></li>
+		<li><a href="#" data-icon="ui-btn ui-icon-info" class="ui-btn-active ui-state-persist">Developers details</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <h2>Developers</h2>
+    <p>We are best in this field</p>
+    <form class="ui-filterable">
+      <input id="myFilter2" data-type="search">
+    </form>
+    <ul data-role="listview" data-filter="true" data-input="#myFilter2" data-autodividers="true" data-inset="true">
+      <li data-filtertext="fav"><a href="#">Siddappa</a></li>
+      <li><a href="#">Yaswanth</a></li>
+      
     </ul>
   </div>
 
