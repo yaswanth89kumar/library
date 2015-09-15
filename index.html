@@ -159,11 +159,33 @@
       <input id="myFilter2" data-type="search">
     </form>
     <ul data-role="listview" data-filter="true" data-input="#myFilter2" data-autodividers="true" data-inset="true">
-	<li><a href="#myPopup1" data-rel="popup">Yaswanth</a></li>
-      <li data-filtertext="fav"><a href="#myPopup" data-rel="popup">Siddappa</a></li>
+	<li><a href="#pagefive" data-icon="ui-btn ui-icon-info" data-transition="slide">Yaswanth</a></li>
+      <li data-filtertext="fav"><a href="#pagesix" data-icon="ui-btn ui-icon-info" data-transition="slide">Siddappa</a></li>
       
     </ul>
-	<div data-role="popup" id="myPopup" class="ui-content">
+	
+  </div>
+
+</div>
+
+
+<div data-role="page" id="pagefive" >
+  <div data-role="header" data-position="fixed">
+    <h1>Library Management System</h1>
+</div>
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#pageone" data-icon="home"  data-transition="flip">Home</a></li>
+        <li><a href="#pagetwo" data-icon="ui-btn ui-icon-info" data-transition="flip" >Users</a></li>
+		<li><a href="#pagethree" data-icon="ui-btn ui-icon-info" data-transition="flip">Books</a></li>
+		<li><a href="#pagefour" data-icon="ui-btn ui-icon-info" class="ui-btn-active ui-state-persist" data-transition="flip">Developers details</a></li>
+      </ul>
+    </div>
+</div>
+<div data-role="main" class="ui-content">
+
+<div>
       <h1>Siddappa Experience</h1>
 	<p >&rarr;B.Tech (Electricals) with 3 years of experience in Development, Testing, Maintenance, Production Support for Websites and Web based Applications.</p>
 	<p>&rarr;In depth understanding of the SDLC entailing requirement analysis, design, development, testing and troubleshooting of software / application.</p>
@@ -173,9 +195,25 @@
 	<p>&rarr;Exceptional communication, collaboration & team building skills with proficiency at grasping new technical concepts quickly and utilize the same in productive manner.</p>
 	<p>&rarr;2 years Experience in Drupal.</p>
 	<p>&rarr;6months Experience in Phonegap (Mobile Cross platform application Development).</p>
-	
+	</div>
+	</div>
     </div>
-	<div data-role="popup" id="myPopup1" class="ui-content">
+	<div data-role="page" id="pagesix">
+	  <div data-role="header" data-position="fixed">
+    <h1>Library Management System</h1>
+</div>
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#pageone" data-icon="home"  data-transition="flip">Home</a></li>
+        <li><a href="#pagetwo" data-icon="ui-btn ui-icon-info" data-transition="flip" >Users</a></li>
+		<li><a href="#pagethree" data-icon="ui-btn ui-icon-info" data-transition="flip">Books</a></li>
+		<li><a href="#pagefour" data-icon="ui-btn ui-icon-info" class="ui-btn-active ui-state-persist" data-transition="flip">Developers details</a></li>
+      </ul>
+    </div>
+</div>
+	<div data-role="main" class="ui-content">
+	
       <h1>Yaswanth Experience</h1>
 	<p >&rarr;B.Tech (Computers) with 3.11 years of experience in Development, Testing, Maintenance, Production Support for Websites and Web based Applications.</p>
 	<p>&rarr;In depth understanding of the SDLC entailing requirement analysis, design, development, testing and troubleshooting of software / application.</p>
@@ -187,10 +225,9 @@
 	<p>&rarr;1 Year  Experience in Angular JS</p>
 	<p>&rarr;1year Experience in Phonegap (Mobile Cross platform application Development).</p>
 	<p>&rarr;6 Months Experience in Drupal.</p>
+	
 	</div>
-  </div>
-
-</div>
+	</div>
 
 </body>
 </html>
